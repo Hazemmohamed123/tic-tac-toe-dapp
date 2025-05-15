@@ -4,8 +4,8 @@ module.exports = {
   solidity: '0.8.0',
   networks: {
     goerli: {
-      url: 'https://goerli.infura.io/v3/YOUR_INFURA_PROJECT_ID',
-      accounts: ['YOUR_PRIVATE_KEY']
+      url: 'https://mainnet.infura.io/v3/650640759cd9472eb6f818467d9600a3',
+      accounts: [0xAFA7cC7947A0d5d883c3A50DF547185158d23A39]
     }
   }
 };
