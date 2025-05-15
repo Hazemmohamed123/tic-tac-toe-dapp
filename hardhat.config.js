@@ -1,11 +1,11 @@
-require('@nomiclabs/hardhat-waffle');
+require("@nomiclabs/hardhat-ethers")
 
 module.exports = {
-  solidity: '0.8.0',
-  networks: {
-    goerli: {
-      url: 'https://mainnet.infura.io/v3/650640759cd9472eb6f818467d9600a3',
-      accounts: [0xAFA7cC7947A0d5d883c3A50DF547185158d23A39]
-    }
-  }
+	  solidity: "0.8.18",
+	  networks: {
+		      sepolia: {
+			            url: "https://sepolia.infura.io/v3/650640759cd9472eb6f818467d9600a3",
+			            accounts: ["1a60b06b68ad6c0f6eef4b10d12f237b4f6af2e7beb53cd429c1205bc6e39cf6"]
+			          }
+		    }
 };
